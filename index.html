@@ -19,6 +19,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- tailwind css -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -37,7 +39,7 @@
           <li><a href="#">Host</a></li>
         </ul>
         <div class="btn">
-          <button>
+          <button class="animate-pulse">
             <a href="#">Subscribe <i class="fa-solid fa-arrow-right"></i></a>
           </button>
         </div>
@@ -48,7 +50,7 @@
           <div class="hero-circle">
             <img src="assets/hero-circle.png" alt="" />
             <img class="micro" src="assets/microphone.png" alt="" />
-            <span class="badge">new</span>
+            <span class="badge animate-bounce">new</span>
           </div>
         </div>
         <div class="banner-content">
@@ -58,12 +60,12 @@
             growth
           </p>
           <div class="section-btn">
-            <button id="btn1">
-              <img src="assets/spotify.png" alt="" />
+            <button id="btn1" >
+              <img class="animate-spin" src="assets/spotify.png" alt="" />
               <a href="#">Listen on Spotify</a>
             </button>
             <button id="btn2">
-              <img src="assets/message.png" alt="" /><a href="#">Subscribe</a>
+              <img class="animate-ping" src="assets/message.png" alt="" /><a href="#">Subscribe</a>
             </button>
           </div>
         </div>
