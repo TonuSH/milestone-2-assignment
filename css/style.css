@@ -27,11 +27,13 @@ nav .logo h2 {
   text-align: center;
   font-size: 32px;
   color: #ffffff;
+  font-weight: 800;
 }
 nav .logo h2 span {
   background: linear-gradient(45deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-weight: 800;
 }
 nav .menu {
   display: flex;
@@ -163,6 +165,7 @@ nav .btn button:hover{
   text-align: center;
   color:#ffffff;
   margin-bottom: 16px;
+  font-weight: 800;
 }
 #podcast .podcast-content p{
   text-align: center;
@@ -205,4 +208,17 @@ nav .btn button:hover{
   line-height: 20px;
   text-align: center;
   color:#b7b7b7;
+  padding-bottom: 120px;
 }
+/* why choose techwave css start */
+#choose_tech{
+  padding-top: 120px;
+  background-color: #230E3D;
+}
+#choose_tech h2{
+  font-size: 48px;
+  font-weight: 800;
+  color:#ffffff;
+  padding-bottom: 40px;
+}
+
