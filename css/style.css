@@ -8,7 +8,7 @@
   font-optical-sizing: auto;
 }
 body {
-  background-color: #412567;
+  background-color: #1A0B2E;
 }
 .container {
   width: 85%;
@@ -164,4 +164,58 @@ nav .btn button {
   color:#00FF88;
   font-size: 16px;
   font-weight: 600;
+}
+
+/* podcast css start */
+#podcast{
+  padding-top: 50px;
+  background-color: #1A0B2E;
+}
+#podcast .podcast-content h2{
+  font-size: 48px;
+  text-align: center;
+  color:#ffffff;
+  margin-bottom: 16px;
+}
+#podcast .podcast-content p{
+  text-align: center;
+  color:#b7b7b7;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 40px;
+}
+#podcast .podcast-content .bottom-para{
+  text-align: center;
+  color:#b7b7b7;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 400;
+}
+#podcast .line{
+  margin:80px 0;
+  border: none;
+  height:1px;
+  color:#b7b7b7;
+  opacity: 10%;
+}
+.podcast-card{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap:80px;
+}
+.podcast-card h2{
+  font-size: 48px;
+  font-weight: bold;
+  color:#00FF88;
+  padding-bottom: 16px;
+  text-align: center;
+}
+.podcast-card p{
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  color:#b7b7b7;
 }
