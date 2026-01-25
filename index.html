@@ -20,7 +20,7 @@
       referrerpolicy="no-referrer"
     />
     <!-- tailwind css -->
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <!-- css link -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -65,7 +65,10 @@
               <a href="#">Listen on Spotify</a>
             </button>
             <button id="btn2" class="animate-pulse">
-              <img class="animate-ping" src="assets/message.png" alt="" /><a href="#">Subscribe</a>
+              <img class="animate-ping" src="assets/message.png" alt="" /><a
+                href="#"
+                >Subscribe</a
+              >
             </button>
           </div>
         </div>
@@ -79,13 +82,17 @@
           <h2>About the Podcast</h2>
           <p>
             TechWave is your go-to podcast for staying ahead in the fast-paced
-            world of technology. <br> We break down complex topics into digestible
-            insights, explore productivity strategies that actually work,<br> and
-            share stories of personal growth from industry leaders.
+            world of technology. <br />
+            We break down complex topics into digestible insights, explore
+            productivity strategies that actually work,<br />
+            and share stories of personal growth from industry leaders.
           </p>
-          <p class="bottom-para">Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+          <p class="bottom-para">
+            Join thousands of young professionals and tech enthusiasts who start
+            their day with TechWave.
+          </p>
         </div>
-        <div class="line"><hr></div>
+        <div class="line"><hr /></div>
         <div class="podcast-card">
           <div class="card">
             <h2>150K+</h2>
@@ -108,11 +115,169 @@
     </section>
 
     <!-- why choose techwave -->
-     <section id="choose_tech">
+    <section id="choose_tech">
       <div class="container">
         <h2 class="text-center">Why Choose TechWave</h2>
+        <div class="grid grid-cols-3 auto-rows-[240px] gap-8">
+          <!-- big card -->
+          <div
+            class="row-span-2 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
+          >
+            <div class="grid-content">
+              <img src="assets/headphone.png" alt="" />
+              <h3>Premium Audio Quality</h3>
+              <p>
+                Experience crystal-clear sound with professional-grade recording
+                equipment and expert audio engineering. Every episode is
+                mastered for optimal listening across all devices and platforms.
+              </p>
+            </div>
+          </div>
+          <!-- wide card 1 -->
+          <div
+            class="col-span-2 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
+          >
+            <div class="grid-content">
+              <img src="assets/device.png" alt="" />
+              <h3>Mobile Friendly</h3>
+              <p>
+                Listen on the go with seamless mobile experience and offline
+                downloads.
+              </p>
+            </div>
+          </div>
+          <!-- wide card 2 -->
+          <div
+            class="col-span-2 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
+          >
+            <div class="grid-content">
+              <img src="assets/location.png" alt="" />
+              <h3>Global Community</h3>
+              <p>
+                Connect with tech enthusiasts from over 120 countries worldwide.
+              </p>
+            </div>
+          </div>
+          <!-- full width card -->
+          <div
+            class="col-span-2 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
+          >
+            <div class="grid-content">
+              <img src="assets/zap-fast.png" alt="" />
+              <h3>Exclusive Interviews</h3>
+              <p>
+                Get unprecedented access to industry titans, startup founders,
+                and tech visionaries. Our host secures exclusive conversations
+                you won't find anywhere else, diving deep into their journeys,
+                failures, and success strategies.
+              </p>
+            </div>
+          </div>
+          <!-- small card -->
+          <div
+            class="col-span-1 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
+          >
+            <div class="grid-content">
+              <img src="assets/resource.png" alt="" />
+              <h3>Rich Resources</h3>
+              <p>
+                Access show notes, transcripts, and additional learning
+                materials for every episode.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- featured episodes -->
+    <section id="feature">
+      <div class="container">
+        <h2>Featured Episodes</h2>
+        <div class="feature-card">
+
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/KKNCiRWd_j0?si=s4o07ZeEfXHC1ib8"
+                allowfullscreen
+              ></iframe>
+              <div class="play-btn animate-spin"></div>
+            </div>
+            <div class="video-content">
+              <h3>The Future of AI in Everyday Life</h3>
+              <p>
+                Exploring how artificial intelligence is transforming our daily
+                routines and what to expect in the next decade.
+              </p>
+              <div class="icon-content">
+                <p><i class="fa-solid fa-clock"></i> 42 min</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd card -->
+           <div class="video-card">
+            <div class="video-wrap">
+              <iframe src="https://www.youtube.com/embed/RsAKKF2-_Kg?si=vVIgHabgJf3fI1Yn" allowfullscreen>
+
+              </iframe>
+              <div class="play-btn animate-spin"></div>
+            </div>
+            <div class="video-content">
+              <h3>Building Better Habits for Remote Work</h3>
+              <p>
+                Practical strategies for staying productive and maintaining work-life balance in a remote environment.
+              </p>
+              <div class="icon-content">
+                <p><i class="fa-solid fa-clock"></i> 35 min</p>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd card -->
+           <div class="video-card">
+            <div class="video-wrap">
+              <iframe src="https://www.youtube.com/embed/eVFzbxmKNUw?si=q0Dpd8SENPejoNxf" allowfullscreen>
+
+              </iframe>
+              <div class="play-btn animate-spin"></div>
+            </div>
+            <div class="video-content">
+              <h3>Career Growth in Tech: A Roadmap</h3>
+              <p>
+                Expert advice on navigating your tech career from junior developer to senior leadership roles.
+              </p>
+              <div class="icon-content">
+                <p><i class="fa-solid fa-clock"></i> 51 min</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- meet the host section -->
+     <section id="host">
+      <div class="container">
+        <h2>Meet the Host</h2>
+        <div class="host-container">
+          <div class="host-img">
+            <img src="assets/host.png" alt="">
+          </div>
+          <div class="host-content">
+            <h3>Alex Kumar</h3>
+            <p>Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech industry for over 10 years, working with startups and Fortune 500 companies. Through TechWave, Alex shares insights from industry leaders and practical advice for anyone looking to grow in tech.</p>
+            <div class="host-icon">
+              <a href="#"><img src="assets/linkedin.png" alt=""></a>
+              <a href="#"><img src="assets/x.png" alt=""></a>
+              <a href="#"><img src="assets/instagram.png" alt=""></a>
+              <a href="#"><img src="assets/youtube.png" alt=""></a>
+            </div>
+          </div>
+        </div>
       </div>
      </section>
+
      
   </body>
 </html>
