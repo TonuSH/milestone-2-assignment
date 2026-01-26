@@ -45,11 +45,11 @@
         <label for="menu-toggle" class="hamburger"><i class="fa-solid fa-bars"></i></label>
       </nav>
       <!-- banner -->
-      <section id="banner">
-        <div class="banner-img">
-          <div class="hero-circle">
-            <img src="assets/hero-circle.png" alt="" />
-            <img class="micro" src="assets/microphone.png" alt="" />
+      <section id="banner" class="min-h-screen md:min-h-[576px]">
+        <div class="banner-img flex justify-center pt-14 md:pt-[101px]">
+          <div class="hero-circle w-[260px] md:w-auto">
+            <img src="assets/hero-circle.png" alt="" class="w-full md:w-auto" />
+            <img class="micro w-[80px] md:w-auto" src="assets/microphone.png" alt="" />
             <span class="badge animate-bounce">new</span>
           </div>
         </div>
@@ -114,11 +114,12 @@
       </div>
     </section>
 
-    <!-- why choose techwave -->
+    <!-- why choose techwave -->grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3
+         auto-rows-auto gap-6
     <section id="choose_tech">
       <div class="container">
         <h2 class="text-center">Why Choose TechWave</h2>
-        <div class="grid grid-cols-3 auto-rows-[240px] gap-8">
+        <div class="grid grid-cols-1 sm:grid-cols-2  lg:grid-cols-3 auto-rows-auto gap-6">
           <!-- big card -->
           <div
             class="row-span-2 rounded-[40px] bg-[rgba(53,17,101,0.4)] p-10 flex items-center"
