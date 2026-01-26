@@ -370,3 +370,46 @@ nav .btn button:hover{
 .host-icon a:hover{
   background: #420170;
 }
+/* footer section css */
+footer{
+  margin-top: 120px;
+  background-image: url(../assets/footer-bg.png);
+  height:412px;
+}
+.footer-content h2{
+  text-align: center;
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 800;
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
+.footer-content h2 span {
+  background: linear-gradient(45deg, #f7e93f 0%, #fb09b4 51%, #9100f8 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+.footer-content .footer-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:40px;
+}
+.footer-content .footer-icon a i{
+  color:#ffffff;
+}
+.footer-content .footer-icon a{
+  text-decoration: none;
+  color:#b7b7b7;
+  font-size: 16px;
+  font-weight: 600;
+}
+.footer-content p{
+  text-align: center;
+  color:#b7b7b7;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 32px;
+}
